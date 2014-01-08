@@ -1,4 +1,4 @@
-arboris
-=======
+ARBORIS - A TREE RECOGNITION SOFTWARE USING LEAF'S TREE PHOTOS
+==============================================================
 
-A tree recognition software using leaves pictures
+
