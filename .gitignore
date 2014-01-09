@@ -36,6 +36,7 @@ nosetests.xml
 .pydevproject
 
 #vim
+.*.swp
 
 sandbox
 sandobx/*
