@@ -213,7 +213,7 @@ def get_convex_hull_feature(contour):
 
 # Test the script, from an input image return a set of 20 features
 if __name__ == "__main__":
-    for fimg in sys.argv[2:]:
+    for fimg in sys.argv[1:]:
         ori = cv2.imread(fimg, cv2.IMREAD_COLOR)
 
         img = ori.copy()
@@ -227,4 +227,4 @@ if __name__ == "__main__":
 
         #print f1+f2+f3+tuple((f4, fimg))
         print f1[0], f1[1], f1[2], f1[3], f1[4], f1[5], f1[6], f1[7], f1[8], f1[9], f2[0], f2[1], f2[2], f2[3], f2[4], f3[0], f3[1], f3[2], f3[3], f3[4], f4
-        print sys.argv[1]
+        #print sys.argv[1]
